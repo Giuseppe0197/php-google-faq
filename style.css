@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.faq {
+    margin-top: 50px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+span {
+    color: blue;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+.parList {
+    margin-left: 50px;
+}
+
+header {
+    border-bottom: 1px solid grey;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 20px auto 0;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.menu {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.menuAsk {
+    margin-top: 30px;
+}
+
+.menuAsk li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+    color: grey;
+}
+
+#ask {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+footer {
+    height: 50px;
+    background-color: lightgrey;
+}
+
+.footerBelow {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#footerGoogle li {
+    display: inline-block;
+    margin-right: 20px;
+    color: grey;
+    line-height: 50px;
+}
+
+.languageSelection {
+    line-height: 50px;
+}
